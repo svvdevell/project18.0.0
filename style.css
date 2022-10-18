@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: flex-start;
+  }
+  form {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    white-space: nowrap;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #list {
+    margin-top: 30px;
+    width: 70%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: gray;
+  }
+  .input-group-text {
+    background-color: rgb(147, 183, 224);
+  }
+  .form-check-input {
+    border: 1px solid black;
+  }
+  .error-message {
+    color: red;
+  }
+  .todo-check {
+    cursor: pointer;
+  }
